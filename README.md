@@ -10,7 +10,7 @@ This is a Full Stack Mern Application that has been created using the following 
 - Node.JS
 
 This is a movies database application. Being an avid movie collector, I need to be able to keep track of movies I have purchased. With no system in place, 
-I do find that movies are either borrow or lost and I cannot account for it.
+I do find that movies are either borrowed or lost and I cannot account for it.
 
 The app uses Node and Express to server as the Server that will connect and route the Movies API. MongoDB has a database called movies to where any movie added or updated will be stored in the database. React.JS is the front end where the Insert Movie and Edit Movie Forms are used to add and update movies. The Show Movie List Command is used to show the Movies that are in the Database at present. There are options to update and edit a movie in line so that you can apply these updates from the front-end.
 
