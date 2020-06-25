@@ -66,13 +66,13 @@ The app uses Node and Express to server as the Server that will connect and rout
 
 Note along with this in your Root folder structure of your project you will require the following Additional Folders:
 
-    - Controllers: This will contain the Movies.Controller.js file. This allows us to create,edit and delete movies.
+  - Controllers: This will contain the Movies.Controller.js file. This allows us to create,edit and delete movies.
 
-    - Models: This will contain the Schema named Movies_Model.js. The Schema defines what information will be captured in the document of each item entered into the Database.
+  - Models: This will contain the Schema named Movies_Model.js. The Schema defines what information will be captured in the document of each item entered into the Database.
 
-    - Movies_Database: This will contain the connection string to MongoDB in the index.js file in this location.
+  - Movies_Database: This will contain the connection string to MongoDB in the index.js file in this location.
 
-    - Routes - This will contain the routes for each action that needs to be carried out in our CRUD application.
+  - Routes - This will contain the routes for each action that needs to be carried out in our CRUD application.
 
 Note: Ensure that in your Server.JS file that your port is defined as port 3001 or any other number other than 3000. 3000 in this instance is used in my React App.
 
