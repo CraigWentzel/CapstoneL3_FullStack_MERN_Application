@@ -118,7 +118,9 @@ Note: Ensure that in your Server.JS file that your port is defined as port 3001 
 
   - Api: Will contain an Index.js file. In this file your routes to the API and what Axios will need to handle
 
-  - App: Will contain your App.js file which you will move from src. to App. Rename this file to Index.js. In thisfile you defining your Routes and Paths within the Front-End  App and which pages to import. This is needed so you can show movies, Add a New Movie or Edit and Update Movies in the front end.
+  - App: Will contain your App.js file which you will move from src. to App. Rename this file to Index.js. 
+    In thisfile you defining your Routes and Paths within the Front-End  App and which pages to import. 
+    This is needed so you can show movies, Add a New Movie or Edit and Update Movies in the front end.
 
 - Components: Will contain 4 files which you will create.
 
@@ -130,7 +132,7 @@ Note: Ensure that in your Server.JS file that your port is defined as port 3001 
 
   - NavBar.js: Contains the configuration of your Navigation Bar.
     
-    Note: In Components I have also included a table.css file. This is used to format the React Table to allow the table to be displayed correctly.
+ Note: In Components I have also included a table.css file. This is used to format the React Table to allow the table to be displayed correctly.
 
 - Pages: Will contain 4 files which you will create.
 
@@ -143,8 +145,8 @@ Note: Ensure that in your Server.JS file that your port is defined as port 3001 
 
      - MoviesUpdate.js: Is used to define the Movies Update Form and helps you update a movie in the Database> Here ensure that your Props and fields are mapped correctly.
 
-  Note: The above files are crucial to the Front End and the interaction of the App with your Database. 
-  Do note the React Table is finnicky, ensure that your accessors and headers are all completed and not blank. This will generate an error.
+Note: The above files are crucial to the Front End and the interaction of the App with your Database. 
+Do note the React Table is finnicky, ensure that your accessors and headers are all completed and not blank. This will generate an error.
 
 Once all folders and components have been created. From the Command Line navigate to cd\documents\Task21\Client.
 
