@@ -12,7 +12,7 @@ This is a Full Stack Mern Application that has been created using the following 
 This is a movies database application. Being an avid movie collector, I need to be able to keep track of movies I have purchased. With no system in place, 
 I do find that movies are either borrowed or lost and I cannot account for it.
 
-The app uses Node and Express to server as the Server that will connect and route the Movies API. MongoDB has a database called movies to where any movie added or updated will be stored in the database. React.JS is the front end where the Insert Movie and Edit Movie Forms are used to add and update movies. The Show Movie List Command is used to show the Movies that are in the Database at present. There are options to update and edit a movie in line so that you can apply these updates from the front-end.
+The app uses Node and Express to serve as the Server that will connect and route the Movies API. MongoDB has a database called movies to where any movie added or updated will be stored in the database. React.JS is the front end where the Insert Movie and Edit Movie Forms are used to add and update movies. The Show Movie List Command is used to show the Movies that are in the Database at present. There are options to update and edit a movie in line so that you can apply these updates from the front-end.
 
 # Express Configuration and Setup:(localhost:3001)
 
@@ -49,7 +49,7 @@ The app uses Node and Express to server as the Server that will connect and rout
 
 8. In your package.json file add in the following script line below your license line.
 
-"scripts": { "start": "nodemon app.js" },
+    "scripts": { "start": "nodemon app.js" },
 
 9. This is added in to ensure that when you start up the server from the command line, nodemon will be used to mo
 
@@ -80,17 +80,17 @@ Note: Ensure that in your Server.JS file that your port is defined as port 3001 
     Nodemon will monitor the load and connection to the server.
 
 16. In an online instance of your database this will also connect to MongoDB. If your database is local ensure that you install MongoDB and configure the required settings to
-    ensure it runs from any command line path. To start the database locally in the CLI in Window 1 run Mongod, in the CLI Window 2 run Mongo minimise these 2 windows.
+     ensure it runs from any command line path. To start the database locally in the CLI in Window 1 run Mongod, in the CLI Window 2 run Mongo minimise these 2 windows.
 
-  Note: Once you have successfully connected to the server and the database. 
-  Test the API connection by performing a POST, GET and DELETE Action in Postman. In this way you testing if you can connect to the API and to the Database. 
-  Your basic CRUD Actions are also tested here as well.
+Note: Once you have successfully connected to the server and the database. 
+Test the API connection by performing a POST, GET and DELETE Action in Postman. In this way you testing if you can connect to the API and to the Database. 
+Your basic CRUD Actions are also tested here as well.
 
 # React.js Configuration and Setup:(localhost:3000)
 
 1. Go to your command prompt environment.
 
-2. Navigate to cd\documents\Task21\
+2. Navigate to cd\documents\Task21
 
 3. Type in yarn create react-app -client
 
