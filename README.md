@@ -120,7 +120,7 @@ Note: Ensure that in your Server.JS file that your port is defined as port 3001 
 
   - App: Will contain your App.js file which you will move from src. to App. Rename this file to Index.js. In thisfile you defining your Routes and Paths within the Front-End  App and which pages to import. This is needed so you can show movies, Add a New Movie or Edit and Update Movies in the front end.
 
-  - Components: Will contain 4 files which you will create.
+- Components: Will contain 4 files which you will create.
 
   - Index.js: Is used to import your links,NavBar and Logo.
 
@@ -132,12 +132,12 @@ Note: Ensure that in your Server.JS file that your port is defined as port 3001 
     
     Note: In Components I have also included a table.css file. This is used to format the React Table to allow the table to be displayed correctly.
 
- - Pages: Will contain 4 files which you will create.
+- Pages: Will contain 4 files which you will create.
 
-     - Index.js: Is used to point to the routes for each of your MoviesPages
+    - Index.js: Is used to point to the routes for each of your MoviesPages
 
-     - MoviesList.js: Is used to define your Show Movies List Component of the app and will contain the React Table Ensure that your Props and field mappings are correct. 
-     This can  be the tricky part of your front-end.
+    - MoviesList.js: Is used to define your Show Movies List Component of the app and will contain the React Table Ensure that your Props and field mappings are correct. 
+      This can  be the tricky part of your front-end.
 
      - MoviesInsert.js:Is used to define the Movies Insert Form and helps you add a movies to the Database> Here ensure that your Props and fields are mapped correctly.
 
