@@ -23,24 +23,24 @@ The app uses Node and Express to server as the Server that will connect and rout
 
 3. In the instructions on screen add in the following information:
 
- - Name: Name of the Project e.g. CapstoneLevel3
- - Version: 1.0.0
- - Main: Specify Server.js as the main file to the application
- - Author: Input your Name and Surname
- - License: Type in MIT as our license model
+   - Name: Name of the Project e.g. CapstoneLevel3
+   - Version: 1.0.0
+   - Main: Specify Server.js as the main file to the application
+   - Author: Input your Name and Surname
+   - License: Type in MIT as our license model
 
 4. Once you have entered all this information, your package.json file will be created in your directory.
 
 5. Once yarn init has run, from the command line proceed to use yarn add to add the add-ins listed below:
 
-- Body-Parser: Will be used to help return the JSON Data into an HTML format
-- Cors : Will be used to assist in returning data from the API
-- Express: Installing this will give us our Server
-- Helmet: Used to secure our application
-- Morgan: Used to secure our application in DEV
-- Mongoose: MongoDB Component we will use to connect to our database named movies in the Cinema collection
-- Serve-Favicon: Used to serve the Favicon icon that is located in the Public folder and fuctions as middleware in our app to perfrom the action
-- Path: To define you Paths in the App
+  - Body-Parser: Will be used to help return the JSON Data into an HTML format
+  - Cors : Will be used to assist in returning data from the API
+  - Express: Installing this will give us our Server
+  - Helmet: Used to secure our application
+  - Morgan: Used to secure our application in DEV
+  - Mongoose: MongoDB Component we will use to connect to our database named movies in the Cinema collection
+  - Serve-Favicon: Used to serve the Favicon icon that is located in the Public folder and fuctions as middleware in our app to perfrom the action
+  - Path: To define you Paths in the App
 
 6. All these items will be added to your package.json file as dependencies.
 
@@ -66,13 +66,13 @@ The app uses Node and Express to server as the Server that will connect and rout
 
 Note along with this in your Root folder structure of your project you will require the following Additional Folders:
 
-- Controllers: This will contain the Movies.Controller.js file. This allows us to create,edit and delete movies.
+  - Controllers: This will contain the Movies.Controller.js file. This allows us to create,edit and delete movies.
 
-- Models: This will contain the Schema named Movies_Model.js. The Schema defines what information will be captured in the document of each item entered into the Database.
+  - Models: This will contain the Schema named Movies_Model.js. The Schema defines what information will be captured in the document of each item entered into the Database.
 
-- Movies_Database: This will contain the connection string to MongoDB in the index.js file in this location.
+  - Movies_Database: This will contain the connection string to MongoDB in the index.js file in this location.
 
-- Routes - This will contain the routes for each action that needs to be carried out in our CRUD application.
+  - Routes - This will contain the routes for each action that needs to be carried out in our CRUD application.
 
 Note: Ensure that in your Server.JS file that your port is defined as port 3001 or any other number other than 3000. 3000 in this instance is used in my React App.
 
@@ -100,11 +100,11 @@ Note: Ensure that in your Server.JS file that your port is defined as port 3001 
 
 6. Using yarn add, add in the following add-ins:
 
-- Axios: Will be used to help capture and return data to and from the API
-- Bootstrap: Will be used for HTML and CSS enhancements
-- Styled-Components: Will be used to style our components like the buttons and wrappers in our components
-- React-Table: Will be used to show us Data presently stored in the Database and will allow us to create, edit and delete movies from the Front End.
-- React-Router_DOM: Will see to the DOM Bindings for React Router
+  - Axios: Will be used to help capture and return data to and from the API
+  - Bootstrap: Will be used for HTML and CSS enhancements
+  - Styled-Components: Will be used to style our components like the buttons and wrappers in our components
+  - React-Table: Will be used to show us Data presently stored in the Database and will allow us to create, edit and delete movies from the Front End.
+  - React-Router_DOM: Will see to the DOM Bindings for React Router
 
 7. In your windows explorer environment navigate to the Task21/client Open package.json in Sublime text.
 
@@ -116,11 +116,11 @@ Note: Ensure that in your Server.JS file that your port is defined as port 3001 
 
 11. Inside in the src folder of your ReactApp create the following Folders:
 
-- Api: Will contain an Index.js file. In this file your routes to the API and what Axios will need to handle
+  - Api: Will contain an Index.js file. In this file your routes to the API and what Axios will need to handle
 
-- App: Will contain your App.js file which you will move from src. to App. Rename this file to Index.js. In thisfile you defining your Routes and Paths within the Front-End App   and which pages to import. This is needed so you can show movies, Add a New Movie or Edit and Update Movies in the front end.
+  - App: Will contain your App.js file which you will move from src. to App. Rename this file to Index.js. In thisfile you defining your Routes and Paths within the Front-End  App and which pages to import. This is needed so you can show movies, Add a New Movie or Edit and Update Movies in the front end.
 
-- Components: Will contain 4 files which you will create.
+  - Components: Will contain 4 files which you will create.
 
   - Index.js: Is used to import your links,NavBar and Logo.
 
