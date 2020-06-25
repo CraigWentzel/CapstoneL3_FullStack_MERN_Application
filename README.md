@@ -33,14 +33,14 @@ The app uses Node and Express to server as the Server that will connect and rout
 
 5. Once yarn init has run, from the command line proceed to use yarn add to add the add-ins listed below:
 
-  - Body-Parser: Will be used to help return the JSON Data into an HTML format
-  - Cors : Will be used to assist in returning data from the API
-  - Express: Installing this will give us our Server
-  - Helmet: Used to secure our application
-  - Morgan: Used to secure our application in DEV
-  - Mongoose: MongoDB Component we will use to connect to our database named movies in the Cinema collection
-  - Serve-Favicon: Used to serve the Favicon icon that is located in the Public folder and fuctions as middleware in our app to perfrom the action
-  - Path: To define you Paths in the App
+    - Body-Parser: Will be used to help return the JSON Data into an HTML format
+    - Cors : Will be used to assist in returning data from the API
+    - Express: Installing this will give us our Server
+    - Helmet: Used to secure our application
+    - Morgan: Used to secure our application in DEV
+    - Mongoose: MongoDB Component we will use to connect to our database named movies in the Cinema collection
+    - Serve-Favicon: Used to serve the Favicon icon that is located in the Public folder and fuctions as middleware in our app to perfrom the action
+    - Path: To define you Paths in the App
 
 6. All these items will be added to your package.json file as dependencies.
 
