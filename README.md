@@ -100,11 +100,11 @@ Note: Ensure that in your Server.JS file that your port is defined as port 3001 
 
 6. Using yarn add, add in the following add-ins:
 
-  - Axios: Will be used to help capture and return data to and from the API
-  - Bootstrap: Will be used for HTML and CSS enhancements
-  - Styled-Components: Will be used to style our components like the buttons and wrappers in our components
-  - React-Table: Will be used to show us Data presently stored in the Database and will allow us to create, edit and delete movies from the Front End.
-  - React-Router_DOM: Will see to the DOM Bindings for React Router
+    - Axios: Will be used to help capture and return data to and from the API
+    - Bootstrap: Will be used for HTML and CSS enhancements
+    - Styled-Components: Will be used to style our components like the buttons and wrappers in our components
+    - React-Table: Will be used to show us Data presently stored in the Database and will allow us to create, edit and delete movies from the Front End.
+    - React-Router_DOM: Will see to the DOM Bindings for React Router
 
 7. In your windows explorer environment navigate to the Task21/client Open package.json in Sublime text.
 
