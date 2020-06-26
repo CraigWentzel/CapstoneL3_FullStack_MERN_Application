@@ -65,9 +65,9 @@ The app uses Node and Express to serve as the Server that will connect and route
 To ensure our deployment to Heroku passes, we will use Node as our primary server hence we need to define the scripts above.
 Ensure to include the Heroku Post Build Script if you are going to deploy to Heroku. 
 
-9. This is added in to ensure that when you start up the server from the command line, nodemon will be used to mo
+9. This is added in to ensure that when you start up the server from the command line, nodemon will be used to monitor changes without having to restart the server.
 
-10. Save all these changes to the package.json file in your Task15 directory.
+10. Save all these changes to the package.json file in your Task21 directory.
 
 11. Navigate to the Task15 directory in your Windows Explorer environment.
 
