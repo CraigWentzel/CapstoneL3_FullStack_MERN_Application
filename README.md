@@ -170,17 +170,18 @@ Once the App is loaded you will then see an image similar to the below:
 
 # Movies Home
 
-
+![alt text](https://user-images.githubusercontent.com/60571124/85817674-f00eaa80-b76e-11ea-9096-af560220c323.JPG)
 
 These are the additional screenshots to the User Interface:
 
 # Show Movies List
-
+![alt text](https://user-images.githubusercontent.com/60571124/85817773-3237ec00-b76f-11ea-9c74-eb3bb45a05a0.JPG)
 
 # Add a Movie
-
+![alt text](https://user-images.githubusercontent.com/60571124/85817723-13395a00-b76f-11ea-8fbf-20f90893d980.JPG)
 
 # Update a Movie
-
+![alt text](https://user-images.githubusercontent.com/60571124/85817798-5267ab00-b76f-11ea-9630-68b1a260f590.JPG)
 
 # Delete a Movie
+![alt text](https://user-images.githubusercontent.com/60571124/85817889-893dc100-b76f-11ea-9c9c-9d43785326ca.JPG)
