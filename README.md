@@ -34,11 +34,14 @@ The app uses Node and Express to serve as the Server that will connect and route
 5. Once yarn init has run, from the command line proceed to use yarn add to add the add-ins listed below:
 
     - Body-Parser: Will be used to help return the JSON Data into an HTML format
+    - Bootstrap: For formatting and styling where we require this
     - Cors : Will be used to assist in returning data from the API
+    - DotEnv: Used to load files between ENVs 
     - Express: Installing this will give us our Server
     - Helmet: Used to secure our application
     - Morgan: Used to secure our application in DEV
-    - Mongoose: MongoDB Component we will use to connect to our database named movies in the Cinema collection
+    - Mongoose: MongoDB Component we will use to connect to our database in Atlas
+    - Nodemon: Used to help us maintain a Server Connection whilst changes are made to our Server.JS file.
     - Serve-Favicon: Used to serve the Favicon icon that is located in the Public folder and fuctions as middleware in our app to perfrom the action
     - Path: To define you Paths in the App
 
@@ -49,7 +52,18 @@ The app uses Node and Express to serve as the Server that will connect and route
 
 8. In your package.json file add in the following script line below your license line.
 
-    "scripts": { "start": "nodemon app.js" },
+    "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm run start --prefix client",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "engines": {
+    "node": "12.13.1"
+  },
+
+To ensure our deployment to Heroku passes, we will use Node as our primary server hence we need to define the scripts above.
+Ensure to include the Heroku Post Build Script if you are going to deploy to Heroku. 
 
 9. This is added in to ensure that when you start up the server from the command line, nodemon will be used to mo
 
